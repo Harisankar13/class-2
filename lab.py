@@ -8,7 +8,7 @@ print(x + y)
 #2
 my_list = [40, 50, 60, 70, 80, 100, 200, 400]
 my_list_len = len(my_list)
-print(my_list_len)
+print(my_list[-1])
 
 #3
 my_string = 'hello world'
@@ -16,7 +16,7 @@ print(my_string.upper())
 
 #4
 z = ['a', 'b', 'c']
-z[3] = ['d']
+#z[3] = ['d']
 z.append('d')
 print(z)
       
@@ -33,8 +33,8 @@ print(color)
 #### answer the following questions without changing the code given
 
 #7 make the entries in this list unique
-schools = {'harris', 'booth', 'crown', 'harris', 'harris'}
-print(schools)
+schools = ['harris', 'booth', 'crown', 'harris', 'harris'] #set([1,2,3])
+print(set(schools))
 
 #8 change the 'dog' entry to 'cat'
 animals = ['bird', 'horse', 'dog', 'fish']
